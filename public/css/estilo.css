@@ -1,0 +1,100 @@
+body{
+	background: #fff;
+	font-family: Arial;
+	color:black;/*#333;*/
+	font-size: 1.2rem;/*tamaño del body*/
+	line-height: 1.6em;/*altura de la linea*/
+	margin:0;/*eliminamos el margen que viene automatico*/
+
+}
+h1{
+	line-height: 1.4em;
+	font-size: 2rem;/*tamaño del tiulo*/
+	text-align: center;
+}
+p{
+	margin-bottom: 1.6em;/*margen de abajo de los parrafos*/
+
+}
+
+.container{
+	width: 85%;/*ocupación del 85% de la página*/
+	max-width: 850px;/*anchura maxima*/
+	margin: 0 auto;/*margenes cero*/
+
+}
+.header{
+	background: #333;
+	color: white;
+	padding: 2rem 0;/*relleno 2 arriba y abajp y 0 a los costadps*/
+	position: fixed;/*la posicion del elemeno header va a ser fijo*/
+	left: 0;
+	top: 0;
+	right: 0;/*tambien se puede utilizar el width:100%*/
+}
+.header a {
+	color: white;
+	text-decoration: none;/*se le quita el subrayado*/
+
+}
+
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;/*se separan y ocupen todo el espacio*/
+	align-items: center;/*los elementos de header se centran*/
+	flex-wrap: wrap;
+
+}
+.logo{
+	letter-spacing: 4px;/*espacio entre letras del logo*/
+	font-size: 2em;
+	/*text-align: left;*/
+
+}
+. menu-icon{
+	display: none;
+}
+.navegacion ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;/*se les saca las viñetas*/
+}
+.navegacion ul li{
+	display: inline-block;/*se ubiquen uno al lado del otro*/
+}
+.navegacion ul li a{
+	display: block;
+	padding: 0.5rem 1rem;/* o.5 rem arriba y abajo, 1 a los costados*/
+	font-size: 14px;
+	transition: all 0.4s linear;
+	border-radius: 5px;
+}
+.navegacion ul li a:hover{
+	background: #4a4a4a;
+}
+.main{
+	padding: 9rem;
+}
+
+#catalogos {
+	text-align: center;
+
+}
+
+
+
+.footer{
+	background: #333;
+	padding: 1rem 0;
+	color: white;
+	text-align: left;
+	margin-top: 3rem;
+	font-size: 1,5rem;
+}
+
+.redes li{
+	/*display: list-item;*/
+	text-align: left;
+
+
+}
